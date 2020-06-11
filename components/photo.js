@@ -8,10 +8,7 @@ function Photo({
   size = 47
 }) {
   return (
-    <div
-      className={cn([styles.photo])}
-      style={{ width: { size }, height: { size } }}
-    >
+    <div className={cn([styles.photo])} style={{ width: size, height: size }}>
       <img className={styles.img} src={src} alt={alt} />
     </div>
   )
